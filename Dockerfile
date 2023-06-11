@@ -10,7 +10,7 @@ RUN npm i --registry=https://registry.npm.taobao.org
 
 COPY --chown=pptruser . /usr/src/app
 
-VOLUME [ "/usr/src/app/run" ]
+# VOLUME [ "/usr/src/app/run" ]
 
 EXPOSE 3000
 
